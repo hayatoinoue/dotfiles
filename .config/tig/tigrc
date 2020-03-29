@@ -1,0 +1,12 @@
+# コミット番号を表示
+set main-view = id date author:email-user commit-title:graph=yes,refs=yes
+
+# 縦の分割はしない
+set vertical-split = no
+
+# 水平分割したウィンドウの下画面サイズを % で指定（行数指定も可）
+set split-view-height = 80%
+
+## 行番号を表示
+#set blame-view-line-number = yes
+#set diff-view-line-number = yes
