@@ -1,0 +1,19 @@
+[include]
+  path = ~/.gitconfig.local
+
+[alias]
+  st = status
+  co = checkout
+  br = branch
+  up = rebase
+  cm = commit
+  gr = log --graph --decorate --branches --remotes --oneline
+  cf = diff HEAD
+  nb = checkout -b
+  df = diff
+  unstage = checkout HEAD
+  publish = push origin HEAD
+  recommit = reset --soft HEAD^
+
+[core]
+  quotepath = false
