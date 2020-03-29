@@ -1,0 +1,14 @@
+.DS_Store
+
+# node
+node_modules/
+
+# Excel temporary
+~$*.xls*
+
+# Excel Backup File
+*.xlk
+
+# editor
+.vscode
+.idea
